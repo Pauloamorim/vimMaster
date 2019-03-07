@@ -1,0 +1,49 @@
+vim filename -> Open file
+vim :e filename -> Open file edit mode
+
+
+----------------------------------------- Insert Commands ----------------------------
+
+i -> Enter insert mode at cursos
+I -> Enter insert mode at first non-blan character
+s -> Delete character under cursor and enter insert mode
+S -> Delete line and begin insert at beginning of same line
+a -> Enter insert mode after cursor
+A -> Enter insert mode at the end of the line
+o -> Enter insert mode on the next line
+O -> Emter insert mode on the above line
+C -> Delete from cursor to end of line and begin insert
+
+-------------------------------------------------------------------------------------
+
+--------------------------------------- Moving in the file -------------------------
+
+h -> move left
+j -> move down
+k -> move up
+l -> move right
+
+w -> Forward to the beginning of the next word
+W -> Forward to the beginning of the nect WORD (words separated by blank space)
+
+Example: this,is.a;separeted String
+
+b -> Backward to the next beginning of a word
+B -> Backward to the next beginning of a WORD
+e -> Forward to the next end of a word
+E -> Forward to the next end of a WORD
+
+[(n)um]<verb><n(o)un>
+[] -> not required
+<> -> required
+
+[n]f<o> -> Forward until(nth) (o) (Inclusive)
+[n]F<o> -> Backward until(nth) (o) (Inclusive)
+[n]t<o> -> Forward until(nth) (o) (Exclusive)
+[n]T<o> -> Backward until(nth) (o) (Exclusive)
+
+abcdefg, abcdefg, abcdefg
+
+
+-----------------------------------------------------------------------------------
+	
