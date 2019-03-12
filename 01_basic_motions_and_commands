@@ -1,11 +1,9 @@
 vim filename -> Open file
-vim :e filename -> Open file edit mode
-
 
 ----------------------------------------- Insert Commands ----------------------------
 
-i -> Enter insert mode at cursos
-I -> Enter insert mode at first non-blan character
+i -> Enter insert mode at cursor
+I -> Enter insert mode at first non-blank character
 s -> Delete character under cursor and enter insert mode
 S -> Delete line and begin insert at beginning of same line
 a -> Enter insert mode after cursor
